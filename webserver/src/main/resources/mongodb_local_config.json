@@ -1,0 +1,25 @@
+{
+
+ "host" : "127.0.0.1",
+ "port" : 27017,
+  "db_name": "features",
+
+ "maxPoolSize" : 50,
+ "minPoolSize" : 25,
+ "maxIdleTimeMS" : 300000,
+ "maxLifeTimeMS" : 3600000,
+ "waitQueueTimeoutMS" : 10000,
+ "maintenanceFrequencyMS" : 2000,
+ "maintenanceInitialDelayMS" : 500,
+
+ "username"   : null,
+ "password"   : "null",
+ "authSource" : "features" ,
+
+ "connectTimeoutMS" : 300000,
+ "socketTimeoutMS"  : 100000,
+ "sendBufferSize"    : 8192,
+ "receiveBufferSize" : 8192
+
+
+}

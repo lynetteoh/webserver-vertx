@@ -1,0 +1,39 @@
+{
+
+  "hosts": [
+              {
+                "host": "freecluster-shard-00-00.0nybs.mongodb.net",
+                "port": 27017
+              },
+              {
+                "host": "freecluster-shard-00-01.0nybs.mongodb.net",
+                "port": 27017
+              },
+              {
+                "host": "freecluster-shard-00-02.0nybs.mongodb.net",
+                "port": 27017
+              }
+            ],
+  "db_name": "features",
+  "username"   : "lyn",
+  "password"   : "3bUvfOGafLlAq2oS",
+  "authSource" : "admin" ,
+
+  "ssl": true,
+  "replicaSet": "atlas-45wsiz-shard-0",
+  "retryWrites" : true,
+  "w":"majority",
+  "maxPoolSize" : 50,
+  "minPoolSize" : 25,
+  "maxIdleTimeMS" : 300000,
+  "maxLifeTimeMS" : 3600000,
+  "waitQueueTimeoutMS" : 10000,
+  "maintenanceFrequencyMS" : 2000,
+  "maintenanceInitialDelayMS" : 500,
+  "connectTimeoutMS" : 300000,
+  "socketTimeoutMS"  : 100000,
+  "sendBufferSize"    : 8192,
+  "receiveBufferSize" : 8192
+
+
+}
