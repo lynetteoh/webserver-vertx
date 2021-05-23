@@ -33,7 +33,7 @@ java -cp target/webserver-1.0.0-SNAPSHOT-fat.jar com.moneylion.interview.webserv
    
 This endpoint receives (user’s email) and featureName as request parameters and returns the following response in JSON format. If featureNmae or user do not exists, a response with Http Status Not Found(404) is returned. If parameters received are not in the correct format, a response with Http Status Bad Request(400) is returned. 
 
-```json
+```
 {  
 	"canAccess": true|false (will be true if the user has access to the featureName
 }
@@ -44,7 +44,7 @@ This endpoint receives (user’s email) and featureName as request parameters an
 This endpoint receives the following request in JSON format and returns an empty response with HTTP Status OK (200) when the database is updated successfully, otherwise returns Http Status Not Modified (304). Validation will be perform to request body to make sure it adheres to the json schema. During validation fails, a response with Http Status Bad Request is returned. 
 
 > Request Body: 
-```json
+```
 {
 	"featureName": "xxx", (string)
 	"email": "xxx", (string) 
